@@ -1,0 +1,308 @@
+body {background-color: #FAFAFA;
+    margin: 0;
+    font-family: "Proxima Nova", Arial, sans-serif;}
+
+
+#logo {position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url("images/logo.png");}
+
+nav {text-align: right;
+    background-color: #FFF4DE;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    font-family: "Proxima Nova Condensed", Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: #911818 solid 5px}
+nav a {text-decoration: none;}
+nav ul {list-style-type: none;
+    margin: 0;
+    padding-right: 8em;
+    font-size: 1.2em;}
+nav li {display: inline;
+    padding-left: 1em;
+    width: 30%;}
+nav a:link {color: #911818}
+nav a:visited {color: #911818}
+nav a:hover {color: #E25757;
+    transition: color}
+
+main {padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    display: block;
+    background-color: #FAFAFA;
+    overflow: auto;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-size: large;}
+
+#wrapper {align-content: center;
+    background-color: #FAFAFA;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 4em}
+
+h1 {font-family: "Proxima Nova Condensed", Arial, sans-serif;
+    color: #911818;
+    font-weight: bolder;}
+
+footer {text-align: center;
+    clear: right;
+    background-color: #570404;
+    padding-top: 4em;
+    padding-bottom: 1.5em;
+    color: white;
+    font-family: "Proxima Nova", Arial, sans-serif;}
+
+#homehero {background-image: url("images/emily-bernal-v9vII5gV8Lw-unsplash (1).jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;}
+
+#projectone {background-image: url("images/magicpattern-saRKnTHBEhU-unsplash.jpg");
+    float: right;
+    background-repeat: no-repeat;
+    width: 50vh;
+    height: 30vh;
+    margin-left: 20px;}
+
+#projecttwo {background-image: url("images/milad-fakurian-0_8gAoFrzbw-unsplash.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    width: 50vh;
+    height: 30vh;
+    margin-right: 20px;}
+
+#projectthree {background-image: url("images/nordwood-themes-ubIWo074QlU-unsplash.jpg");
+    float: right;
+    background-repeat: no-repeat;
+    width: 50vh;
+    height: 30vh;
+    margin-left: 20px;}
+
+#contacthero {background-image: url("images/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;}
+
+#contact {font-family: "Proxima Nova Condensed", Arial, sans-serif;
+    font-weight: bolder;}
+
+form {display: flex;
+    flex-flow: column nowrap;}
+input, textarea {margin-bottom: 0.5em;}
+
+#contactform {font-family: "Proxima Nova Condensed", Arial, sans-serif;
+    font-weight: bolder;}
+
+
+
+
+@media only screen and (min-width: 600px)
+{
+    body {background-color: #FAFAFA;
+        margin: 0;
+        font-family: "Proxima Nova", Arial, sans-serif;}
+
+    nav {text-align: center;
+        background-color: #FFF4DE;
+        margin: 0;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        height: auto;
+        font-family: "Proxima Nova Condensed", Arial, sans-serif;
+        font-weight: bold;
+        border-bottom: #911818 solid 5px}
+    nav a {text-decoration: none;}
+    nav ul {list-style-type: none;
+        margin: 0;
+        padding-right: 0em;
+        font-size: 1.2em;}
+    nav li {display: inline;
+        padding-left: 2em;
+        width: 30%;}
+    nav a:link {color: #911818}
+    nav a:visited {color: #911818}
+    nav a:hover {color: #E25757;
+        transition: color}
+
+    main {padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        display: block;
+        background-color: #FAFAFA;
+        overflow: auto;
+        font-family: "Proxima Nova", Arial, sans-serif;
+        font-size: large;}
+
+    #wrapper {align-content: center;
+        background-color: #FAFAFA;
+        padding-right: 3em;
+        padding-left: 3em;
+        padding-top: 4em}
+
+    h1 {font-family: "Proxima Nova Condensed", Arial, sans-serif;
+        color: #911818;
+        font-weight: bolder;}
+
+    footer {text-align: center;
+        clear: right;
+        background-color: #570404;
+        padding-top: 4em;
+        padding-bottom: 1.5em;
+        color: white;
+        font-family: "Proxima Nova", Arial, sans-serif;}
+
+    #homehero {background-image: url("images/emily-bernal-v9vII5gV8Lw-unsplash (1).jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 30vh;
+        height: 30vh;}
+
+    #contacthero {background-image: url("images/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 30vh;
+        height: 30vh;}
+
+    #projectone {background-image: url("images/magicpattern-saRKnTHBEhU-unsplash.jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 30vh;
+        height: 30vh;
+        margin-left: 20px;}
+
+    #projecttwo {background-image: url("images/milad-fakurian-0_8gAoFrzbw-unsplash.jpg");
+        float: left;
+        background-repeat: no-repeat;
+        width: 30vh;
+        height: 30vh;
+        margin-right: 20px;}
+
+    #projectthree {background-image: url("images/nordwood-themes-ubIWo074QlU-unsplash.jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 30vh;
+        height: 30vh;
+        margin-left: 20px;}
+
+    .projectheader {text-align: center;
+        padding-bottom: 20px;}
+
+
+}
+
+
+@media only screen and (min-width: 1024px)
+{
+    body {background-color: #FAFAFA;
+        margin: 0;
+        font-family: "Proxima Nova", Arial, sans-serif;}
+
+    nav {text-align: right;
+        background-color: #FFF4DE;
+        margin: 0;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-right: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        height: auto;
+        font-family: "Proxima Nova Condensed", Arial, sans-serif;
+        font-weight: bold;
+        border-bottom: #911818 solid 5px}
+    nav a {text-decoration: none;}
+    nav ul {list-style-type: none;
+        margin: 0;
+        padding-right: 10em;
+        font-size: 1.2em;}
+    nav li {display: inline;
+        padding-left: 2em;
+        width: 30%;}
+    nav a:link {color: #911818}
+    nav a:visited {color: #911818}
+    nav a:hover {color: #E25757;
+        transition: color}
+
+    main {padding-right: 45px;
+        padding-bottom: 20px;
+        padding-left: 45px;
+        display: block;
+        background-color: #FAFAFA;
+        overflow: auto;
+        font-family: "Proxima Nova", Arial, sans-serif;
+        font-size: large;}
+
+    #wrapper {align-content: center;
+        background-color: #FAFAFA;
+        padding-right: 8em;
+        padding-left: 8em;
+        padding-top: 8em}
+
+    h1 {font-family: "Proxima Nova Condensed", Arial, sans-serif;
+        color: #911818;
+        font-weight: bolder;}
+
+    footer {text-align: center;
+        clear: right;
+        background-color: #570404;
+        padding-top: 4em;
+        padding-bottom: 1.5em;
+        color: white;
+        font-family: "Proxima Nova", Arial, sans-serif;}
+
+    #homehero {background-image: url("images/emily-bernal-v9vII5gV8Lw-unsplash (1).jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 80vh;
+        height: 55vh;
+        margin-left: 25px;}
+
+    #contacthero {background-image: url("images/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 80vh;
+        height: 55vh;
+        margin-left: 25px;}
+
+    #projectone {background-image: url("images/magicpattern-saRKnTHBEhU-unsplash.jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 50vh;
+        height: 30vh;
+        margin-left: 20px;}
+
+    #projecttwo {background-image: url("images/milad-fakurian-0_8gAoFrzbw-unsplash.jpg");
+        float: left;
+        background-repeat: no-repeat;
+        width: 50vh;
+        height: 30vh;
+        margin-right: 20px;}
+
+    #projectthree {background-image: url("images/nordwood-themes-ubIWo074QlU-unsplash.jpg");
+        float: right;
+        background-repeat: no-repeat;
+        width: 50vh;
+        height: 30vh;
+        margin-left: 20px;}
+
+
+}
